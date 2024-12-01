@@ -16,6 +16,17 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "PearAI Hackathon",
   description: "PearAI Hackathon lead by Nang and Frying Pan",
+  openGraph: {
+    title: "PearAI Hackathon",
+    description: "PearAI Hackathon lead by Nang and Frying Pan",
+    images: [{
+      url: '/pearai-hackathon.png',
+      width: 1200,
+      height: 630,
+      alt: 'PearAI Hackathon'
+    }],
+    type: 'website',
+  },
 };
 
 export default function RootLayout({
